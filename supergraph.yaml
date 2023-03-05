@@ -1,0 +1,12 @@
+federation_version: 2
+subgraphs:
+  orders:
+    routing_url: http://localhost:8081/graphql
+    schema:
+      subgraph_url: http://localhost:8081/graphql
+  
+  patients:
+    routing_url: http://localhost:8080/graphql
+    schema:
+      subgraph_url: http://localhost:8080/graphql
+  
