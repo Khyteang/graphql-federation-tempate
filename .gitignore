@@ -2,3 +2,5 @@ supergraph-schema.graphql
 router
 .env
 */.env
+*.pyc
+*.pyo

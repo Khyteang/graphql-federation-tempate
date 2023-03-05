@@ -38,6 +38,9 @@ $ curl -sSL https://rover.apollo.dev/nix/latest | sh
 
 # Start up databases
 ```bash
+# make sure you populate the .env
+$ cp .sample.env .env
+
 $ docker-compose build
 
 # this command will spin up two databases and pgadmin 
