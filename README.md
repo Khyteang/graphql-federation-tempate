@@ -41,8 +41,8 @@ $ curl -sSL https://rover.apollo.dev/nix/latest | sh
 $ docker-compose build
 
 # this command will spin up two databases and pgadmin 
-# port 8080 for patient-service
-# port 8081 for order-service
+# port 5432 for patient-service
+# port 5433 for order-service
 $ docker-compose up -d
 ```
 
