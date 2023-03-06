@@ -80,6 +80,9 @@ $ poetry run start
 
 # Generate supergraph using rover
 ```bash
+# IF you're running on an M1, make sure you install Apple's Rosetta 2 software which emulates x86 code on the ARM chip
+$ softwareupdate --install-rosetta
+
 # this command will use all the specified subgraph from supergraph.yaml and generate a supergraph in supergraph-schema.graphql
 $ rover supergraph compose --elv2-license=accept --config ./supergraph.yaml > supergraph-schema.graphql
 ```
